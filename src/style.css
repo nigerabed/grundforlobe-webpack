@@ -1,0 +1,362 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Sen", sans-serif;
+}
+h1 {
+  font-size: 3em;
+  margin: 1em 0;
+}
+
+header {
+  margin-bottom: 8em;
+}
+
+.smallHeading-text {
+  font-size: 20px;
+}
+#banner-container {
+  height: 100vh;
+  background-image: url("images/hero.jpg");
+  transform: scaleX(-1);
+  color: rgb(255, 255, 255);
+
+  padding-top: 10em;
+}
+.flip-text {
+  transform: scaleX(-1);
+  padding-left: 3em;
+}
+
+.banner-btn {
+  height: 3.5em;
+  width: 13em;
+  background-color: #fe4926;
+  border: none;
+  margin-top: 3em;
+  font-size: 1em;
+}
+
+#header-nav {
+  height: 5em;
+  width: 100%;
+  background-color: rgb(44, 56, 66);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  margin: 1em;
+}
+
+#header-nav h3 {
+  font-size: 1.8em;
+  padding: 0.8em 0 0 2.5em;
+}
+
+.header-nav-ul {
+  padding: 0.6em 5em 0 0;
+}
+
+/*First Section--> Section activity style */
+
+#activity {
+  width: 90%;
+  margin: 1em;
+
+  display: flex;
+  margin: auto;
+}
+.bigImg img {
+  width: 44.5em;
+  height: 43em;
+  object-fit: cover;
+}
+
+.smallImg img {
+  margin: 0.3em;
+  height: 9em;
+  width: 14em;
+  object-fit: cover;
+}
+
+article h5 {
+  letter-spacing: 4px;
+  font-size: 18px;
+}
+
+article h2 {
+  font-size: 3em;
+  font-weight: 900;
+}
+
+article p {
+  font-size: 18px;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+article button {
+  font-size: 1.2em;
+}
+.activity-text-Div {
+  margin-top: 10em;
+  text-align: left;
+  width: 90%;
+}
+
+#activity-Til-alle {
+  margin-bottom: 3em;
+}
+
+.activity-text {
+  margin-left: 1em;
+  background-color: #f1edea;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Prøv-klatre-Div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+#activity-Til-alle h4 {
+  font-size: 2.5em;
+  font-weight: bolder;
+  margin-bottom: 1em;
+}
+.family-activity {
+  display: flex;
+
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+.klatring {
+  text-align: center;
+  margin: 1em;
+}
+
+.klatring img {
+  height: 18em;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 2em;
+}
+.klatring p {
+  text-align: left;
+  margin-top: 1em;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fe4966;
+}
+.btn {
+  background-color: #fe4926;
+
+  border: none;
+  padding: 1em 3em;
+}
+
+.bestil-btn {
+  margin-top: 3em;
+  font-size: 1em;
+}
+
+/* anders banner style section */
+.anders-Section {
+  margin-bottom: 2em;
+}
+
+.anders-Banner {
+  background-image: url("images/tuesday-background.jpg");
+  height: 30em;
+  width: 100%;
+}
+
+.anders-text {
+  backdrop-filter: brightness(25%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.anders-pic {
+  /* position: absolute; */
+  height: 20em;
+  width: 20em;
+  object-fit: cover;
+}
+.anders-time-text-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 2em;
+}
+
+.color-bar {
+  display: flex;
+  position: relative;
+  bottom: 1.5em;
+  justify-content: center;
+}
+.anders-btn {
+  height: 3.5em;
+  width: 14em;
+
+  margin-top: 3em;
+  font-size: 1em;
+}
+.anders-time-text-div {
+  text-align: left;
+}
+.anders-text h2 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.box1 {
+  height: 1.5em;
+  width: 50em;
+  background-color: rgb(206, 179, 150);
+}
+.box2 {
+  height: 1.5em;
+  width: 20em;
+  background-color: #fe4926;
+}
+
+/* form section starts */
+
+#form-section {
+  width: 60%;
+  margin: auto;
+}
+
+form,
+label {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  gap: 1em;
+
+  width: 50em;
+  padding: 1em;
+  margin: 0 auto;
+}
+.form-text {
+  text-align: center;
+  margin: 4em;
+}
+form input {
+  height: 6em;
+  padding: 1em 0 1em 1em;
+}
+
+form textarea {
+  height: 10em;
+
+  padding: 1em 0 1em 1em;
+}
+#form-section h2 {
+  font-size: 3em;
+  font-weight: 900;
+  margin-bottom: 1em;
+}
+#form-section h5 {
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+input::placeholder {
+  color: rgb(13, 13, 13);
+  font-size: 1.3em;
+}
+textarea::placeholder {
+  color: rgb(12, 12, 12);
+  font-size: 1.4em;
+}
+
+.form-Btn {
+  height: 4em;
+  border-radius: 0.2em;
+  font-size: 16px;
+}
+
+/* footer section starts */
+
+footer {
+  background-color: rgb(44, 56, 66);
+  height: 15em;
+  width: 100%;
+}
+
+footer section {
+  margin-top: 10em;
+}
+#footer-nav {
+  padding: 3em;
+  color: #f1edea;
+  display: flex;
+  justify-content: space-between;
+}
+footer h3 {
+  font-size: 1.8em;
+  padding: 0.8em 0 0 2.5em;
+}
+footer nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+footer nav ul li {
+  margin: 1em;
+}
+
+.social-contacts p {
+  font-size: 0.9em;
+  color: #e9dcdc;
+}
+
+.social-contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #f1edea;
+  padding: 3em;
+  padding-bottom: 2em;
+}
+
+.icons {
+  fill: azure;
+}
