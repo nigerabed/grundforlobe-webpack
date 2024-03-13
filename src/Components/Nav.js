@@ -1,7 +1,7 @@
 
 export default function Nav() {
-  let nav = document.createElement("nav");
-  nav.innerHTML = `
+  return `
+<nav id="header-nav">
           <div id="logo"><h3>Karlstrup Klatrepark</h3></div>
           <ul class="header-nav-ul">
             <li>Hjem</li>
@@ -9,6 +9,6 @@ export default function Nav() {
             <li>Prøv at klatre</li>
             <li>Kontakt os</li>
           </ul>
+        </nav>
           `;
-  return nav;
 }
